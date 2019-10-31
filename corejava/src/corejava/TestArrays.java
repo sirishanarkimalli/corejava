@@ -20,10 +20,10 @@ public class TestArrays {
 		arr4[1]=new int [2];
 		arr4[2]=new int[3];
 		
-//		System.out.println("Enter n value : ");
-//		Scanner s=new Scanner(System.in);
-//		n=s.nextInt();
-//		
+		System.out.println("Enter n value : ");
+		Scanner s=new Scanner(System.in);
+		n=s.nextInt();
+		
 		System.out.println("First array: \n");
 		for(int i=0;i<5;i++) {
 			arr1[i]=i+1;
@@ -38,18 +38,19 @@ public class TestArrays {
 			System.out.print(val+" ");
 		
 		System.out.println("Third array length: "+arr3.length);
-//		for(int i=0;i<n)
-		
-//		s.close();
+	
 		
 		//2d Arrays
 		int a[][]=new int [3][2];
+		System.out.println(a.length+" "+a[0].length);
+		
 		for(int i=0;i<3;i++) {
 			for(int j=0;j<2;j++) {
-				
+				System.out.println("Enter the value: ");
+				a[i][j]=s.nextInt();
 			}
 		}
-		System.out.println(a.length+" "+a[0].length);
+		
 	}
 
 }
